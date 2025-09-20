@@ -1,13 +1,13 @@
 **CAPSTONE PROJECT - EMPLOYEE PERFROMANCE PREDICITON**
 
-**Initial Data Analysis and Exploratory Report**
+**Initial Report and Exploratory Data Analysis**
 This report provides an initial exploratory data analysis (EDA) of the EmployeesPerformanceDataset.csv data. The analysis focuses on understanding the data structure, identifying key metrics, and visualizing performance trends.
 
 1. **Data Overview and Cleaning**
 The dataset, which contains performance evaluation records, was loaded successfully.
 
 The initial inspection revealed several key characteristics:
-**Shape**: The dataset consists of 422 rows and 15 columns.
+**Shape**: The dataset consists of 39,984 rows and 15 columns.
 **Data Types**: Most columns are of object type (text). 
 The score column, which is critical for analysis, is of type float64.
 Completed date column was converted to datetime objects for easier manipulation and potential time-series analysis.
@@ -34,6 +34,13 @@ Score	0.0%**
 
 2. **Key Findings from Descriptive Statistics**
 An analysis of the numerical Score column provides a summary of performance ratings across the dataset:
+
+**Score Distribution**: The Score column has values ranging from 1 to 10, with a mean score of approximately 6.85. The majority of scores fall between 6 and 8, as indicated by the interquartile range (25th percentile is 6, 75th percentile is 8). The median score is 7.
+**Evaluation Levels**: The dataset includes four types of evaluation levels:
+**Downward**: 74 entries (from manager to subordinate).
+**Undefined**: 20 entries.
+**Peer**: 12 entries.
+**Self**: 1 entry
 
 **Average Score**: The mean score is approximately 6.67.
 **Median Score**: The median score is 7.0, which is slightly higher than the mean, suggesting the data is either evenly distributed or slightly skewed towards higher scores.
