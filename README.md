@@ -1,4 +1,4 @@
-                                                                                                              **CAPSTONE PROJECT - EMPLOYEE PERFROMANCE PREDICITON**
+**CAPSTONE PROJECT - EMPLOYEE PERFROMANCE PREDICITON**
 
 **Initial Data Analysis and Exploratory Report**
 This report provides an initial exploratory data analysis (EDA) of the EmployeesPerformanceDataset.csv data. The analysis focuses on understanding the data structure, identifying key metrics, and visualizing performance trends.
